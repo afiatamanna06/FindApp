@@ -1,11 +1,11 @@
 body
 {
-	
+	overflow-y: scroll;
 	margin:0;
 	padding:0;
 	background:url("1.jpg");
 	background-size:cover;
-	font-family: sans-serif; 
+	font-family: sans-serif ,Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; 
 }
 
 h1
@@ -20,7 +20,8 @@ h1
 	padding:0 0 20px;
 	color: #651a1a;
 	/*text-align:center;*/
-} 
+}
+ 
 
 .loginBox
 {
@@ -31,12 +32,22 @@ h1
 	transform: translate(-50%, -50%);
 	width:390px;
 	height:450px;
-	padding:80px 40px;
+	padding:40px 40px;
 	box-sizing: border-box;
 	background:rgba(0,0,0,0.5) ;
 	
 }
 
+.loginBox h1
+{
+	font-family: "Georgia", serif;
+	font-size: 40px;
+	padding:0;
+	margin:0;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+}
 
 .loginBox p
 {
@@ -87,7 +98,6 @@ h1
 	background: #efed40;
 	color: #262626;
 }
- 
  
  
 
